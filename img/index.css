@@ -1,0 +1,152 @@
+.pied {
+    background-color: #024A97;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.pied h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.pied h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.pied button {
+    background-color: white;
+    color: #0D6EFD;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pied button:hover {
+    background-color: #f0f0f0;
+}
+.before-banner {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 60px 0;
+    text-align: center;
+}
+.before-banner h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+.before-banner p {
+    color: #6c757d; /* Gray color for subheading */
+    margin-bottom: 40px;
+}
+.matière {
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Ensure child elements don't overflow the border radius */
+    background-color: #fff; /* Background color for each card */
+    transition: transform 0.2s; /* Smooth transform on hover */
+}
+.matière:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+.matière img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure the image covers the div without distorting */
+}
+.eeee {
+    padding: 15px;
+}
+.eeee h4 {
+    color: #000;
+}
+.eeee h5 {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+.eeee button {
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.eeee button a {
+    color: white;
+    text-decoration: none;
+}
+.eeee button:hover {
+    background-color: #003366;
+}
+.hero {
+    background-color: #E3E6F3;
+    padding: 100px 0;
+}
+.hero .titi {
+    margin-top: 50px;
+
+}
+.hero h1 {
+    color: #000;
+    font-size: 4.5rem;
+    margin-top: 20px;
+}
+.hero p{
+    font-size: 1.5rem;
+}
+.btn-custom-primary {
+    background-color: #0D6EFD;
+    color: #fff;
+    border: none;
+}
+.btn-custom-primary:hover {
+    background-color: #0D6EFD;
+}
+.btn-custom-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
+.btn-custom-secondary:hover {
+    background-color: #5a6268;
+}
+.btn-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.hero-image{
+    margin-bottom: 80px;
+}
+
+.matière2 .container p, h4, h5{
+    text-align: center;
+}
+
+.matière2 .container .btn{
+    color: #0D6EFD;
+}
+@media (min-width: 768px) {
+    .btn-container {
+        justify-content: flex-start;
+    }
+}
+.svg{
+    position: absolute;
+    top: 45px;
+    left: 1500px;
+}
+.carousel-item img {
+    width: 100%;
+    height: 600px; /* Définissez la hauteur fixe souhaitée */
+    object-fit: cover; /* Maintient le ratio de l'image en recadrant si nécessaire */
+}
+.custom-navbar {
+    background-color:#0D6EFD; /* Couleur de fond de la navbar */
+}
+.custom-navbar a{
+    color: #fff;
+}

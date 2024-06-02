@@ -1,0 +1,29 @@
+.matière {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+.matière img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.matière h5 .fa-star {
+    color: #0D6EFD;
+}
+.matière button {
+    background-color: #0D6EFD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.matière button a {
+    color: white;
+    text-decoration: none;
+}
